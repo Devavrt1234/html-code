@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="musicplayercss.css">
+    <script src="https://kit.fontawesome.com/6a9c14cd3a.js" crossorigin="anonymous"></script>
+    
+</head>
+</head>
+<body>
+    <div class="container">
+        
+        <div class="music-player">
+          
+            <nav>
+                <div class="circle">
+                    <i class="fa-solid fa-angles-left"></i>
+                </div>
+                <div class="circle">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </nav>
+            <!--  -->
+            <img src="https://th.bing.com/th/id/R.a2e047c4ed368cf1a247e882b2bbbf0c?rik=OGT30awN4Gq9vQ&riu=http%3a%2f%2fis2.mzstatic.com%2fimage%2fthumb%2fPurple111%2fv4%2fbb%2f12%2fc2%2fbb12c252-076b-613e-5dc2-ea661c77494f%2fsource%2f1200x630bb.jpg&ehk=QAZWcwa4LpNIV8J7RHQLioPbUbIxZzwdwXQ9hwPbiDw%3d&risl=&pid=ImgRaw&r=0" alt="spotifylogo" class="song-img">
+            <!-- <img src="https://1.bp.blogspot.com/-ssOF2fb-dt4/WAn8vOHKv5I/AAAAAAAA7Zg/YXz6nMcJFwE0YUDDbH-A60Rl0jrmBqREQCLcB/s1600/song%2Blyrics%2BAlan%2BWalker%2B-%2BFaded.jpg" alt="spotifylogo" class="song-img"> -->
+            
+            <!--  -->
+            <h1 id="songname">FADED</h1>
+            <p id="artistname">By Alan Walker</p> 
+            <audio>
+                 <source src="Faded(PaglaSongs).mp3" type="audio/mpeg"> 
+            </audio> 
+            <button class=" volumeup"><h2>+</h2></button>
+            <input type="range" value="0" id="progress">
+            <button class="volumedown"><h2>-</h2></button>
+            <div class="controls">
+                <button id="prevbtn"><i class="fa-solid fa-backward"  title="Pervious"></i></button>
+                <button id="ctrlIcon" ><i class="fa-solid fa-play" id="playpausebtn" title="Play" ></i></button>
+                <button id="nextbtn"><i class="fa-solid fa-forward"  title="Next"></i></button>  
+            </div>
+             
+        </div>
+        
+    </div>
+    <script type="text/javascript" src="musicplayerjavascript.js"></script>
+
+</body>
+</html>
